@@ -1,7 +1,9 @@
 {
-  "compilerOptions": {
-    "noEmit": true,
-    "strict": true
-  },
-  "include": ["src/"]
+	"compilerOptions": {
+		"target": "es2015",
+		"noEmit": true,
+		"strict": true,
+		"importHelpers": true
+	},
+	"include": ["src/"]
 }

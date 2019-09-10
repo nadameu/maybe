@@ -1,11 +1,13 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "declaration": false,
-    "rootDir": "src/",
-    "outDir": "lib/cjs/",
-    "strict": true
-  },
-  "include": ["src"]
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"lib": ["es2015"],
+		"declaration": false,
+		"rootDir": "src/",
+		"outDir": "lib/cjs/",
+		"strict": true,
+		"importHelpers": true
+	},
+	"include": ["src"]
 }
